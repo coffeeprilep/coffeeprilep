@@ -1,0 +1,17 @@
+.map {
+    height: 100%;
+    width: 100%;
+    border: 2px solid rgb(143, 10, 0);
+    z-index: 0;
+  }
+  /* Leaflet dark mode */
+  .leaflet-layer,
+  .leaflet-control-zoom-in,
+  .leaflet-control-zoom-out,
+  .leaflet-control-attribution {
+    filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+  }
+  
+  .leaflet-container {
+    background: #000;
+  }

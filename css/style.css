@@ -8503,6 +8503,16 @@ textarea.form-control {
     .ftco-section {
       padding: 6em 0; } }
 
+.ftco-section-menu {
+  padding: 7em 0;
+  position: relative;
+  margin-top: 50px; }
+  @media (max-width: 767.98px) {
+    .ftco-section-menu {
+      padding: 6em 0; 
+      margin-top: -50px;
+    } }
+
 .ftco-bg-dark {
   background: #030202; }
 
